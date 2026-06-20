@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath> // Needed for sqrt() and pow()
 
-using namespace std; // Beginners almost always use this globally
+using namespace std; 
 
 class Point
 {
@@ -47,7 +47,7 @@ public:
         }
         else
         {
-            return false; // Beginners love explicit if-else for booleans
+            return false; 
         }
     }
 
@@ -138,7 +138,7 @@ istream& operator>>(istream& input, Point& p)
     double tempX;
     double tempY;
 
-    // Expecting user to type something like (5, 10)
+    
     input >> garbage; // Eats '('
     input >> tempX;   // Reads the x coordinate
     input >> garbage; // Eats ','
